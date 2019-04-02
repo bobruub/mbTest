@@ -1,0 +1,21 @@
+{
+	"http": {
+		"createCommand": "node http.js",
+		"testRequest": {
+			"method": "GET",
+			"path": "/",
+			"query": {},
+			"headers": {},
+			"form": {},
+			"body": ""
+		},
+		"testProxyResponse": {
+			"statusCode": 200,
+			"headers": {},
+			"body": ""
+		}
+	},
+	"mbtest": {
+		"createCommand": "java \\_git\\perf_sven_protocol_test\\mbTest.jar"
+	}
+}

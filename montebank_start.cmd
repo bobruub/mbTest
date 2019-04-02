@@ -1,0 +1,1 @@
+C:\_software\mountebank-v2.0.0-win-x64\mb.cmd --protofile protocols.json --loglevel info --port 1234 --allowInjection --callbackURLTemplate http://localhost:2525/imposters/:2525/_requests
